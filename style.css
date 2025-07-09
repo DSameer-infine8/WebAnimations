@@ -4,5 +4,16 @@
 }
 
 body{
-    background-color: rgb(149, 149, 149);
+    background-color: rgb(26, 26, 26);
+}
+
+.ok{
+    color: rgb(255, 153, 0);
+}
+
+.box{
+    height: 100px;
+    width:100px;
+    background-color: azure;
+    top:0
 }
