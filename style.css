@@ -3,12 +3,12 @@
 *{
     margin: 0%;
     padding: 0%;
-    overflow-x: hidden;
 }
 
 body{
     background-color: rgb(80, 80, 80);
     color: azure;
+    overflow-x: hidden;
 }
 
 nav{
@@ -74,7 +74,7 @@ nav{
 
 
 .show{
-    margin-top: 80vh;
+    margin-top: 60vh;
     margin-left: auto;
     margin-right: auto;
     height: 200px;
@@ -92,4 +92,41 @@ nav{
     background-color: azure;
     border-radius: 1rem;
 
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#page2 h1{
+    font-size: 70vh;
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#page3{
+    height: 110vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.svg{
+    height: auto;
+    width: auto;
+    display: flex;
+        justify-content: center;
+        align-items: center;
 }
