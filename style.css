@@ -3,17 +3,85 @@
     padding: 0%;
 }
 
-body{
-    background-color: rgb(26, 26, 26);
-}
+        body {
+            margin: 0;
+            height: 100vh;
+            background: #1c1c1c;
+        }
+    
+        .road {
+            position: relative;
+            margin-left: 50px;
+            background-color: #111;
+            width: 40px;
+            height: 200vh;
+            border-radius: 0 0 2rem 2rem;
+            margin-bottom: 20px;
+        }
+    
+        .center-line {
+            margin: 0 auto;
+            top: 0;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background-image: repeating-linear-gradient(to bottom,
+                    white 0 40px,
+                    transparent 40px 80px);
+        }
 
-.ok{
-    color: rgb(255, 153, 0);
-}
+        .img{
+            position: absolute;
+            top: 0;
+            left: -30px;
+        }
+        img{
+            border-radius: 50%;
+            height: 100px;
+        }
 
-.box{
-    height: 100px;
-    width:100px;
-    background-color: azure;
-    top:0
-}
+        button{
+            all:unset;
+        }
+
+        .ok{
+            padding: 50px 0;
+            transition: padding 0.1s ease;
+        }
+
+        .roadbox{
+            position: absolute;
+            height: 200px;
+            width: 80px;
+            top: 100px;
+            left: 90px;
+            border: 20px solid rgb(72, 72, 72);
+            border-left: none;
+            border-radius: 0 2rem 2rem 0;
+        }
+
+        .head{
+            position: absolute;
+            top: 0;
+            color: white;
+            left:150px;
+        }
+
+        .topic1{
+            position: absolute;
+            top: 30px
+        }
+        .topic2{
+                    position: absolute;
+                    top: 180px;
+                    transition: top 0.1s ease;
+        }
+
+        p{
+            color: white;
+        }
+        h3{
+            position: absolute;
+            top:130px;
+            left:200px;
+        }
